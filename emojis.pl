@@ -1,5 +1,4 @@
 use Irssi;
-# use Irssi::Irc;
 use strict;
 use vars qw($VERSION %IRSSI);
 
@@ -9,7 +8,7 @@ $VERSION="2.0";
 %IRSSI = (
         authors         => 'Ola Thoresen',
         contact         => 'irssi@olen.net',
-        name            => 'message_cleaner',
+        name            => 'emojis',
         description     => 'Coverts emojo',
         license         => 'GPL v2'
 );
